@@ -1,3 +1,7 @@
 body {
     background-color: lightsteelblue;
 }
+
+#main {
+    margin: 40px;
+}
