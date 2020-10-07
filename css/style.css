@@ -1,7 +1,50 @@
 body {
     background-color: lightsteelblue;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vph;
 }
 
 #main {
-    margin: 40px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+#middle {
+    margin: 50px;
+}
+
+header, footer {
+    background-color: steelblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+#headlink {
+    font-family: sans-serif;
+}
+#headlink > a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 5px;
+}
+#headlink > a:hover {
+    background-color: black;
+}
+#headlinks {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-end;
+}
+
+#left, #right {
+    background-color: lightblue;
+    width: 100px;
 }
