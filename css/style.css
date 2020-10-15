@@ -57,11 +57,6 @@ p {
     background-color: lightblue;
     width: 150px;
 }
-#resumee {
-    width: 100%;
-    max-width: 526px;
-    justify-content: center;
-}
 #centerbox {
     display: grid;
     grid-row: 1;
