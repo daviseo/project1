@@ -17,6 +17,12 @@ header, footer {
 p {
     margin: 20px;
 }
+a {
+    margin: 20px;
+}
+h1 {
+    text-align: center;
+}
 #main {
     display: flex;
     flex-direction: row;
@@ -49,6 +55,7 @@ p {
     display: inline-block;
     color: white;
     padding: 5px;
+    margin: 0;
 }
 #headlink > a:hover {
     background-color: darkblue;
