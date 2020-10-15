@@ -110,6 +110,29 @@ h1 {
 #resume {
     width: 100%;
 }
+#coursework {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: steelblue;
+    padding: 10px;
+    grid-gap: 10px;
+}
+#grid_elem {
+    background-color: black;
+    border: 2px solid white;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+#grid_elem > a {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+}
+#grid_elem > a:hover {
+    color: lightblue;
+}
 @media (max-width: 1200) {
     #content {
         flex-direction: column;
