@@ -57,18 +57,9 @@ p {
     background-color: lightblue;
     width: 150px;
 }
-@media (max-width: 1200) {
-    #content {
-        flex-direction: column;
-    }
-    #headlinks {
-        justify-content: center;
-    }
-}
-
-
-.resume {
+#resume {
     width: 100%;
+    max-width: 526px;
     justify-content: center;
 }
 #centerbox {
@@ -114,3 +105,13 @@ p {
     color: white;
     padding: 20px;
 }
+@media (max-width: 1200) {
+    #content {
+        flex-direction: column;
+    }
+    #headlinks {
+        justify-content: center;
+    }
+}
+
+
