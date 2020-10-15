@@ -67,8 +67,8 @@ p {
 }
 
 
-#resume {
-    width: 50%;
+.resume {
+    width: 100%;
     justify-content: center;
 }
 #centerbox {
