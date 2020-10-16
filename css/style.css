@@ -141,16 +141,42 @@ h1 {
     animation-name: title;
     animation-duration: 4s;
 }
-@media screen and (max-width: 1200px) {
+#contactmain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media screen and (max-width: 1000px) {
     #content {
         flex-direction: column;
         justify-content: center;
+        padding: 0;
+        margin: 0;
     }
     #headlinks {
         justify-content: center;
     }
     #coursework {
         display: block;
+    }
+    img {
+        width: 100%;
+    }
+    #contactmain {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    #centerbox {
+        padding: 10px;
+    }
+    .LI-profile-badge {
+        width: 10%;
+    }
+    #facebook {
+        width: 40px;
+        height: 40px;
     }
 }
 @keyframes title {
