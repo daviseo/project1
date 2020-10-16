@@ -59,6 +59,7 @@ h1 {
     color: white;
     padding: 5px;
     margin: 0;
+    font-family: sans-serif;
 }
 #headlink > a:hover {
     background-color: darkblue;
@@ -140,12 +141,16 @@ h1 {
     animation-name: title;
     animation-duration: 4s;
 }
-@media (max-width: 1200) {
+@media screen and (max-width: 1200px) {
     #content {
         flex-direction: column;
+        justify-content: center;
     }
     #headlinks {
         justify-content: center;
+    }
+    #coursework {
+        display: block;
     }
 }
 @keyframes title {
